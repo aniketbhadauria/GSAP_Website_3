@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neobank</title>
+    <!-- Link TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-black w-full h-screen ">
+    <!-- main Screen -->
+    <div id="main">
+      <!-- Header -->
+      <div class="flex justify-between item-center">
+        <!-- logo -->
+        <span class="logo text-xl font-bold text-[#1DC6DB] px-10 mt-6">Fi</span>
+        <div
+          class="nav flex justify-end item-end px-10 py-5 gap-2 "
+        >
+          <!-- navbar -->
+          <ul class="navbar w-fit rounded-full px-8 py-2 ">
+            <li
+              class="text-white text-lg font-[20px] space-x-8 "
+            >
+               <!-- navgation links -->
+              <a href="#">Features</a>
+              <a href="#">Pricing</a>
+              <a href="#">Community</a>
+              <a href="#">Support</a>
+            </li>
+          </ul>
+           <!-- button -->
+          <button
+            type="button"
+            class="btn px-6 py-1 bg-[#1DC6DB] rounded-full text-white font-semibold"
+          >
+            Get a free demo
+          </button>
+        </div>
+      </div>
+<div class="hero">
+    <div class="relative flex flex-col justify-center items-center gap-5">
+        <div class="w-full h-full">
+          <!-- spline -->
+          <script type="module" src="https://unpkg.com/@splinetool/viewer@1.8.3/build/spline-viewer.js"></script>
+          <spline-viewer url="https://prod.spline.design/uUcSioYwxcMH6NWt/scene.splinecode"></spline-viewer>
+        </div>
+        <div class="absolute inset-0 flex flex-col justify-center items-center mx-auto gap-5">
+          <h1 class=" flex gap-5 w-fit text-6xl 2xl:text-7xl font-medium leading-normal text-center mt-10 text-white/40">
+            <!-- Heading -->
+            <p>Get</p> 
+            <p>a</p>
+            <p>savings</p>
+            <p>account</p>
+            <p>unlike</p>
+            <p>any</p>
+            <p>other.</p>
+          </h1>
+          <!-- button -->
+          <button
+          type="button"
+          class="btn flex px-8 py-3 bg-[#1DC6DB] rounded-full text-white font-semibold text-lg gap-1 hover:bg-[#008C9E]"
+        >
+          Start Exploring
+          <img src="assets/arrow-up-right.svg" alt="">
+        </button>
+        </div>
+      </div>
+      
+   
+</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
